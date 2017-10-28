@@ -1,9 +1,5 @@
 /**
  *  GE Motion Dimmer Switch
- *	Author: Matt lebaugh (@mlebaugh)
- *
- * Based off of the Dimmer Switch under Templates in the IDE 
- * Copyright (C) Matt LeBaugh
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -17,7 +13,7 @@
  */
 
 metadata {
-	definition (name: "GE Motion Dimmer Switch 26933", namespace: "mlebaugh", author: "Matt LeBaugh") {
+	definition (name: "GE Motion Dimmer Switch 26933", namespace: "nateober", author: "Nate Ober") {
 		capability "Motion Sensor"
         capability "Actuator"
  		capability "Switch"
